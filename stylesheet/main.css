@@ -13,6 +13,9 @@ p {
 }
 
 
+/* When possible, try to use
+classes instead of adding styles
+for tag names.  */
 h1 {
     display: flex;
     justify-content: center;
@@ -22,6 +25,10 @@ h1 {
 }
 
 
+/* Though not necessary in this case,
+it's a good idea to add comments when you
+add styles to classes from third-party
+libraries.  */
 .col-md-12 {
     padding: 10px;
     height: 70%;
@@ -36,11 +43,11 @@ h1 {
     margin: 0 auto;
     border: 2px black solid;
     margin-bottom: 10px;
-    
+
 }
 
 
 
 
 
-    
+
